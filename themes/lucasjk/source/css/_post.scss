@@ -1,0 +1,85 @@
+.post__wrap {
+    background-color: $white;
+  .post {
+    padding: em(20);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .post__header {
+    margin-bottom: em(10);
+  }
+
+  .post__icon-wrap {
+    margin-bottom: em(10);
+  }
+
+  .post__icon-img {
+    width:200px;
+    height:200px;
+    display:block;
+    margin:0 auto;
+  }
+
+  .post__header-title {
+    margin: 0;
+    text-align: center;
+  }
+
+  .post__subtitle {
+    margin:0;
+    text-align: center;
+  }
+
+  .post__body {
+    padding: em(15);
+  }
+
+  .post__footer {
+    border-bottom: 1px solid $black;
+    border-top: 1px solid $black;
+  }
+
+  //Tags in post footer
+  .post__tag-list {
+    padding:em(5);
+    margin: em(2);
+  }
+
+  .post__tag-list-item {
+    border: 2px solid $black;
+    display: inline-block;
+    margin: em(5);
+    padding:em(8);
+
+    &:hover {
+      background-color: $grey-light;
+
+    }
+  }
+
+  .post__tag-list-link {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  //Paginator at the bottom of the post body
+  .article-nav {
+    text-align: center;
+    padding: em(15) 0;
+  }
+
+  .article-nav-link-wrap {
+    display:block;
+    margin-bottom: em(15);
+  }
+
+  .article-nav-title, .article-nav-caption {
+    text-align: center;
+    margin: em(5) 0;
+  }
+
+
+
+}

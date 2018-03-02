@@ -1,0 +1,40 @@
+// Reset
+@import 'normalize';
+
+// Style variables
+@import 'variables';
+
+// Helper classes, mixins, functions
+@import 'utilities';
+
+// Headings, general site text etc..
+@import 'typography';
+
+//Base styles for the overall site:
+@import 'base';
+
+
+// INDIVIDUAL COMPONENTS
+//Header bar containing nav, logo
+@import 'header-bar';
+
+//Footer
+@import 'footer';
+
+// Main post loop on the homepage
+@import 'post-loop';
+
+// Arhive list
+@import 'archive';
+
+// Sidebar and widgets
+@import 'sidebar';
+
+// Single post view
+@import 'post';
+
+// Static pages, e.g About & Contact
+@import 'page';
+
+// Embedded contact form
+@import 'contact-form';

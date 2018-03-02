@@ -1,0 +1,44 @@
+<article id="<%= post.layout %>-<%= post.slug %>" class="post box-shadow article-type-<%= post.layout %>">
+  <% if (post.layout === 'post'){ %>
+    <div class="post__meta-wrap center-text">
+      <%- partial('post/date', {class_name: 'post__meta-date', date_format: null}) %>
+    </div>
+  <% } %>
+  <div class="post__inner">
+    <% if (post.link || post.title){ %>
+      <header class="post__header">
+        <div class="post__icon-wrap">
+          <% if (post.icon){ %>
+            <img class="post__icon-img" src="<%= post.icon %>" />
+          <% } %>
+        </div>
+        <%- partial('post/title', {class_name: 'post__header-link'}) %>
+      </header>
+    <% } %>
+    <div class="post__body">
+      <% if (index){ %>
+
+        <!-- <% if (post.excerpt){ %>
+          <p class="post__excerpt">
+             <%- post.excerpt %>
+          </p>
+          <% if (theme.excerpt_link){ %>
+            <p class="post__read-more">
+              <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+            </p>
+          <% } %>
+        <% } %> -->
+      <% } else { %>
+        <div class="post__content">
+        <%- post.content %>
+      </div>
+      <% } %>
+    </div>
+    <footer class="post__footer">
+      <%- partial('post/tag') %>
+    </footer>
+  </div>
+  <% if (!index){ %>
+    <%- partial('post/nav') %>
+  <% } %>
+</article>

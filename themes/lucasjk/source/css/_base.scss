@@ -1,0 +1,43 @@
+//Base styles for the overall project
+
+* {
+  color:$black;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $off-white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+
+  input, textarea {
+    width:100%;
+    margin: em(10) 0;
+  }
+}
+
+
+//General layout of main content sections:
+.content__wrap {
+  @include landscape-tablet {
+    display: flex;
+  }
+}
+
+
+.main-content {
+  @include landscape-tablet {
+    width:70%;
+    background-color: $white;
+    padding: em(10) 0;
+  }
+}

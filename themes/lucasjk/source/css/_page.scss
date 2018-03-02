@@ -1,0 +1,31 @@
+.page__wrap {
+
+  background-color: $white;
+
+  .post {
+    padding: em(20);
+    padding-bottom: em(60);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .post__inner {
+    padding: 0 em(20);
+  }
+
+  .post__header {
+    margin-bottom: em(10);
+  }
+
+  .post__header-title {
+    margin: 0;
+    text-align: center;
+  }
+
+  .post__subtitle {
+    margin:0;
+  }
+
+
+}

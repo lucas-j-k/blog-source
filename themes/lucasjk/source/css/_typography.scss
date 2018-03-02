@@ -1,0 +1,51 @@
+//Typography styles for whole site.
+
+* {
+  //Crimson text is the best so far? Merriweather is ok
+  // font-family: 'Source Serif Pro', serif;
+  // font-family: 'Domine', serif;
+  // font-family: 'Neuton', serif;
+  // font-family: 'Crimson Text', serif;
+  // font-family: 'Slabo 27px', serif;
+  // font-family: 'Gentium Basic', serif;
+  // font-family: 'Merriweather', serif;
+  font-family: 'Vollkorn', serif;
+
+}
+
+h1 {
+  font-size: em(22);
+  margin-bottom:em(15);
+  span, a, p {
+    font-size: em(22);
+    text-decoration: none;
+  }
+
+}
+
+h2 {
+  font-size: em(20);
+  margin:em(6) 0;
+  span, a, p {
+    font-size: em(20);
+    text-decoration: none;
+  }
+}
+
+h3, h4, h5 {
+  font-size: em(18);
+  margin-bottom:em(5);
+  span, a, p {
+    font-size: em(18);
+    text-decoration: none;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  padding: em(3);
+}
+
+p, a {
+  font-size: em(14);
+}

@@ -1,0 +1,22 @@
+<header class="header-bar">
+  
+
+  <div class="header-bar__logo-wrap center-text">
+    <img class="header-bar__logo-img" src="/images/logo.png" />
+  </div>
+
+  <p class="header-bar__title center-text">
+    <a href="<%- url_for() %>" class="header-bar__title-text"><%= config.title %></a>
+  </p>
+
+  <nav class="header-bar__nav">
+    <ul class="header-bar__nav-list">
+      <% for (var link in site.data.nav) { %>
+        <li class="header-bar__nav-list-item center-text">
+          <a class="header-bar__nav-link" href="<%= site.data.nav[link].path %>"> <%= site.data.nav[link].text %> </a>
+        </li>
+      <% } %>
+    </ul>
+  </nav>
+
+</header>
