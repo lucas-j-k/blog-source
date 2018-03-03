@@ -13,7 +13,13 @@
       <% last = year; %>
       <section class="archive__wrap">
         <div class="archive__title-wrap">
-          <h1 class="archive__title">Archive</h1>
+          <h1 class="archive__title">
+            <% if(page.tag){ %>
+              <%= page.tag %>
+            <% } else { %>
+              Archive
+            <% } %>
+          </h1>
           <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive__year"><%= year %></a>
         </div>
         <div class="archive__loop">

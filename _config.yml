@@ -3,9 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Title of site
-subtitle: A blog
-description: Main site description
+title: Lucas
+seotitle: Lucas-J-K | Front End | Design | Animation
+heading: Lucas
+subtitle: Front end dev, design and animation
+description: Front end dev, design and animation
 author: Lucas
 language:
 timezone:

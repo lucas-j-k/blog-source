@@ -5,10 +5,6 @@
   background-color: $grey-dark;
 }
 
-.header-bar__title {
-  border-right: 1px solid $white;
-}
-
 .header-bar__title-text {
   font-size: em(22);
   text-decoration: none;
@@ -55,6 +51,7 @@
     margin-bottom: 0;
     background-color: $grey-dark;
   }
+
 
   .header-bar__title {
     margin: 0 em(5);
