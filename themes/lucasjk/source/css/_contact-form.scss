@@ -20,6 +20,10 @@
     padding: em(10);
     border: 2px solid $black;
     margin: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &--textarea {
