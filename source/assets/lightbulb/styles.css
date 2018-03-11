@@ -1,0 +1,23 @@
+#lightbulb {
+  width:300px;
+  height: 300px;
+  margin: 0 auto;
+  display:block;
+}
+
+#restart {
+  padding: 1em;
+  text-transform: uppercase;
+  border: 2px solid #00001a;
+  color: #00001a;
+  border-radius: 0.5em;
+  width:150px;
+  margin:1em auto;
+  display: block;
+}
+
+#restart:hover {
+  background-color: #00001a;
+  color:#e1e1c4;
+  cursor: pointer;
+}

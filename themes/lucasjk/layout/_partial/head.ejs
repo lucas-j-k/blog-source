@@ -35,4 +35,8 @@
   <%- partial('google-analytics') %>
   <!-- load google font: -->
   <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <!-- Load custom stylesheet for post if one is specified in front matter: -->
+  <% if (page.custom_stylesheet){ %>
+    <link rel="stylesheet" href="<%- page.custom_stylesheet %>">
+  <% } %>
 </head>

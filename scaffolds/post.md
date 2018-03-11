@@ -6,4 +6,5 @@ date: {{ date }}
 tags:
 description:
 icon:
+custom_stylesheet:
 ---

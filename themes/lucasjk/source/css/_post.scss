@@ -22,6 +22,15 @@
     margin:0 auto;
   }
 
+  .post__meta-date {
+    padding: em(5);
+    text-decoration: none;
+  }
+
+  .post__meta-wrap {
+    margin-bottom:em(12);
+  }
+
   .post__header-title {
     margin: 0;
     text-align: center;
