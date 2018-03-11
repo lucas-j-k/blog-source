@@ -1,7 +1,7 @@
 ---
 title: Contact
-seo_title: Contact | My blog | Example
-description: SEO meta description goes here!
+seo_title: Get in touch | Lucas-J-K
+description: Get in touch | Lucas-J-K
 date: 2018-02-07 21:22:20
 ---
 

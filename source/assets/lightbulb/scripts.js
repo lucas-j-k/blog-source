@@ -39,7 +39,7 @@ timeline
     {value:1.0, duration:10}
   ],
   easing:'easeOutQuad'
-})
+});
 
 
 restartButton.onclick = function(){
