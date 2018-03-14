@@ -2,8 +2,19 @@
 .header-bar {
   padding:em(5);
   margin-bottom: em(5);
-  background-color: $grey-dark;
+  background-color: $black;
+  display:flex;
 }
+
+  .header-bar__logo-wrap {
+    width:40%;
+  }
+
+  .header-bar__nav {
+    width:40%;
+    padding-top:em(20);
+  }
+
 
 .header-bar__title-text {
   font-size: em(22);
@@ -13,6 +24,7 @@
 }
 
 .header-bar__nav-list {
+  margin:0;
   @include landscape-tablet {
     display:flex;
   }
@@ -26,6 +38,7 @@
   text-decoration: none;
   display: block;
   color: $grey-light;
+  font-size: em(14);
 
 }
 
@@ -49,7 +62,6 @@
     align-items: center;
     padding: em(5) em(15);
     margin-bottom: 0;
-    background-color: $grey-dark;
   }
 
 
@@ -58,6 +70,10 @@
     padding: 0 em(15);
     border-right: 1px solid $white;
     font-weight: normal;
+  }
+
+  .header-bar__logo-wrap {
+    width:auto;
   }
 
   .header-bar__title-text {
@@ -70,13 +86,17 @@
     height:50px;
   }
 
+  .header-bar__nav {
+    width:auto;
+    padding-top:0;
+  }
+
   .header-bar__nav-list-item {
     padding: 0 em(5);
   }
 
   .header-bar__nav-link {
     padding: em(5);
-    font-size: em(14);
     color: $grey-light;
 
     &:hover {

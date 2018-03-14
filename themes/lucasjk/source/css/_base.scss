@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: $off-white;
+  @include gradient-background;
 }
 
 ul {
@@ -37,7 +37,6 @@ form {
 .main-content {
   @include landscape-tablet {
     width:70%;
-    background-color: $white;
     padding: em(10) 0;
   }
 }

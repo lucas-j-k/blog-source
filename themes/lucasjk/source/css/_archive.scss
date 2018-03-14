@@ -13,6 +13,12 @@
     text-align: inherit;
     font-size: em(30);
     margin-bottom: em(10);
+    color:$white;
+    font-weight: normal;
+  }
+
+  .archive__year {
+    color:$white;
   }
 
   .archive__post {
@@ -22,9 +28,7 @@
     border: 2px solid $black;
     margin-bottom: em(15);
     padding:em(20);
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(27,27,28,0.7);
-    -moz-box-shadow: 0px 5px 10px 0px rgba(27,27,28,0.7);
-    box-shadow: 0px 5px 10px 0px rgba(27,27,28,0.7);
+    @include box-shadow;
   }
 
   .archive__post-title {
@@ -36,7 +40,7 @@
     text-decoration: none;
 
     time {
-      color: $black;
+      color:$white;
     }
   }
 

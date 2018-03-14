@@ -13,7 +13,7 @@
   <nav class="header-bar__nav">
     <ul class="header-bar__nav-list">
       <% for (var link in site.data.nav) { %>
-        <li class="header-bar__nav-list-item center-text">
+        <li class="header-bar__nav-list-item">
           <a class="header-bar__nav-link" href="<%= site.data.nav[link].path %>"> <%= site.data.nav[link].text %> </a>
         </li>
       <% } %>

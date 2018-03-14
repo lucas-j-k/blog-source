@@ -7,6 +7,7 @@
     border: 2px solid $black;
     margin-bottom: em(20);
     padding:em(10);
+    @include box-shadow;
   }
 
   .post__icon-wrap {
@@ -68,6 +69,7 @@
   .post__tag-list-link {
     text-decoration: none;
     text-transform: uppercase;
+    font-size: em(14);
   }
 
   @include landscape-tablet {

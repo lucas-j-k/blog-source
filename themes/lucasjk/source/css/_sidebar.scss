@@ -1,11 +1,9 @@
 .sidebar {
-  background-color: $grey-light;
   width: 100%;
   margin: 0 auto;
   padding: em(10) 0;
 
   .widget__wrap {
-    background-color: $white;
     width: 90%;
     margin: 0 auto;
     margin-bottom: em(10);
@@ -14,9 +12,17 @@
   .widget__title {
     margin: 0 auto;
     width:90%;
+    font-size: em(16);
     padding-top:em(10);
     padding-bottom:0;
-    border-bottom: 1px solid $grey-dark;
+    border-bottom: 1px solid $grey-light;
+    color: $grey-light;
+    font-weight: normal;
+
+  }
+
+  .tag-list-link, .widget__archive-link, .archive-list-link {
+    font-size: em(14);
   }
 
   .widget__body {
@@ -67,9 +73,6 @@
   //Media Queries:
   @include landscape-tablet {
     width:30%;
-    background-color: $white;
-
-
   }
 
 
