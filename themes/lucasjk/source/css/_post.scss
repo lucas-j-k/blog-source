@@ -91,6 +91,27 @@
     margin: em(5) 0;
   }
 
+  //Article content:
+  img {
+    width: 100%;
+    margin: 0 auto;
+    display:block;
+  }
+
+  //Tablet and up:
+  @include landscape-tablet {
+    img {
+      width:60%;
+    }
+  }
+
+  //Ensure images don't stretch too much on larger desktops:
+  @include wide-desktop {
+    img {
+      width:40%;
+    }
+  }
+
 
 
 }
