@@ -47,6 +47,13 @@
     padding: em(15);
   }
 
+  .post__content {
+    a {
+      background-color: $link-color;
+      
+    }
+  }
+
   .post__footer {
     border-bottom: 1px solid $black;
     border-top: 1px solid $black;
@@ -65,7 +72,7 @@
     padding:em(8);
 
     &:hover {
-      background-color: $grey-light;
+      background-color: $link-color;
 
     }
   }
@@ -73,6 +80,7 @@
   .post__tag-list-link {
     text-decoration: none;
     text-transform: uppercase;
+    font-size: em(14);
   }
 
   //Paginator at the bottom of the post body

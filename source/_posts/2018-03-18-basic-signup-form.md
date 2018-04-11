@@ -5,7 +5,7 @@ seo_title: Basic Signup Landing Page
 subtitle: Testing out theming Bootstrap 4 with Sass
 tags: [CSS, Design, Bootstrap]
 description: Testing out theming Bootstrap 4 with Sass
-icon: http://res.cloudinary.com/duua3lsu1/image/upload/v1521411424/blog/signup-screenshot-round.png
+icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484978/blog/signup-thumbnail.png
 custom_stylesheet:
 ---
 

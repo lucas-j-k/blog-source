@@ -5,7 +5,7 @@ seo_title: New Layout - Menswear
 subtitle: Bootstrap based layout with full screen nav overlay
 tags: [CSS, Design, Bootstrap]
 description:
-icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1522009770/blog/menswear-thumbnail.png
+icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484992/blog/menswear-thumbnail.png
 custom_stylesheet:
 ---
 

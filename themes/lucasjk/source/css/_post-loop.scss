@@ -4,9 +4,8 @@
     width:90%;
     margin: 0 auto;
     background-color: $white;
-    border: 2px solid $black;
     margin-bottom: em(20);
-    padding:em(10);
+    padding:em(5);
     @include box-shadow;
   }
 
@@ -15,17 +14,29 @@
   }
 
   .post__icon-img {
-    width:200px;
-    height:200px;
-    display:block;
+    // width:200px;
+    // height:200px;
+    // display:block;
+    // margin:0 auto;
+    width:250px;
+    height:150px;
+    background-color: black;
     margin:0 auto;
+    display:block;
   }
 
   .post__header-title {
     text-align: center;
     margin: 0 auto;
     width:85%;
-    border-bottom: 1px solid $black;
+    // border-bottom: 1px solid $black;
+  }
+
+  .post__header-link {
+    background-color: $link-color;
+    padding: em(2);
+    font-size: em(18);
+    display: inline-block;
   }
 
   .post__meta-wrap {
@@ -36,14 +47,11 @@
     text-decoration: none;
   }
 
-  .post__body {
-  }
-
   .post__subtitle {
     width:80%;
     margin: 0 auto;
     text-align: center;
-    padding: em(10) 0;
+    padding: em(5) 0;
   }
 
   .post__footer {
@@ -61,7 +69,7 @@
     padding:em(8);
 
     &:hover {
-      background-color: $grey-light;
+      background-color: $link-color;
 
     }
   }
@@ -76,7 +84,7 @@
 
     .post__meta-wrap  {
       padding:0;
-      margin-bottom: em(10);
+      margin-bottom: em(5);
       text-align: left;
     }
 

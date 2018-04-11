@@ -5,7 +5,7 @@ seo_title: Lightbulb SVG animation with Anime.js
 subtitle: Experimenting with using the Animejs library to animate SVG
 tags: [Animation, SVG, Anime.js]
 description: Experimenting with using the Animejs library to animate SVG
-icon: http://res.cloudinary.com/duua3lsu1/image/upload/v1520708774/blog/lightbulbthumbnail.png
+icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484983/blog/lightbulb-thumbnail.png
 custom_stylesheet: /assets/lightbulb/styles.css
 ---
 
