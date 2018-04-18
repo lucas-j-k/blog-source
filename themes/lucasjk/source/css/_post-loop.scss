@@ -82,6 +82,7 @@
   .post__tag-list {
     padding:em(5);
     margin: em(2);
+    text-align: center;
   }
 
   .post__tag-list-item {
@@ -138,6 +139,8 @@
 
     .post__tag-list {
       padding:0;
+      margin-left: 0px;
+      text-align: left;
     }
 
     .post__tag-list-item {
