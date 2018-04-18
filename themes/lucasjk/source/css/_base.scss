@@ -31,7 +31,14 @@ form {
   @include landscape-tablet {
     display: flex;
   }
+
+  @include wide-desktop {
+    max-width: 1600px;
+    margin:0 auto;
+  }
 }
+
+
 
 
 .main-content {
