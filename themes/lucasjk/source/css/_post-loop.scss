@@ -10,7 +10,29 @@
   }
 
   .post__icon-wrap {
-    margin-bottom: em(10);
+    width:250px;
+    height:150px;
+    margin:0 auto;
+    position: relative;
+
+    &:before{
+      content:"";
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background-color: $thumbnail-overlay-color;
+      -moz-transition: background .2s linear;
+      -webkit-transition: background .2s linear;
+      -o-transition: background .2s linear;
+      transition: background .2s linear;
+    }
+
+    &:hover:before {
+      background:none;
+    }
   }
 
   .post__icon-img {
@@ -94,6 +116,7 @@
     }
 
     .post__icon-wrap {
+      margin:0;
     }
 
     .post__header-wrap {
