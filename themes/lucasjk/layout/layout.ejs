@@ -2,6 +2,7 @@
 <body>
   <div id="container">
     <div id="wrap">
+      <%- partial('_partial/mobile-header') %>
       <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
       <div class="content__wrap">
         <section id="main" class="main-content"><%- body %></section>
@@ -14,5 +15,7 @@
 
 
   </div>
+  <!-- Load main frontend script file: -->
+  <%- js('js/scripts') %>
 </body>
 </html>

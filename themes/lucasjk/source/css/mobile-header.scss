@@ -1,0 +1,33 @@
+.mobile-header {
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  &__logo-wrap {
+    width:40%;
+    text-align: center;
+  }
+  &__logo {
+    width:75%;
+    margin:0 auto;
+  }
+  &__menu-toggle {
+    width:40%;
+    text-align: center;
+    svg, i {
+      font-size: em(32);
+      color:$white;
+      path {
+        color:$white;
+      }
+    }
+  }
+}
+
+@include portrait-tablet {
+
+  //Hide the mobile toggle header:
+  .mobile-header {
+    display:none;
+  }
+}

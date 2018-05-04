@@ -31,10 +31,13 @@
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
   <% } %>
+  <!-- Load main css file: -->
   <%- css('css/styles') %>
   <%- partial('google-analytics') %>
   <!-- load google font: -->
   <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <!-- Font Awesome JS: -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
   <!-- Load custom stylesheet for post if one is specified in front matter: -->
   <% if (page.custom_stylesheet){ %>
     <link rel="stylesheet" href="<%- page.custom_stylesheet %>">
