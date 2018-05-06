@@ -29,6 +29,9 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+codepen: https://codepen.io/lucas-j-k/
+github: https://github.com/lucas-j-k
+
 
 # config the sass renderer module
 node_sass:

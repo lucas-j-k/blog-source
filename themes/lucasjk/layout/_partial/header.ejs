@@ -1,5 +1,6 @@
 <header class="header-bar" id="header-bar">
 
+<div class="header-bar__left">
   <div class="header-bar__top-wrap">
     <div class="header-bar__logo-wrap center-text">
       <img class="header-bar__logo-img" src="/images/l-logo.png" />
@@ -14,14 +15,22 @@
     <a href="<%- url_for() %>" class="header-bar__title-text"><%= config.title %></a>
   </p> -->
 
-  <nav class="header-bar__nav">
-    <ul class="header-bar__nav-list">
-      <% for (var link in site.data.nav) { %>
-        <li class="header-bar__nav-list-item">
-          <a class="header-bar__nav-link" href="<%= site.data.nav[link].path %>"> <%= site.data.nav[link].text %> </a>
-        </li>
-      <% } %>
-    </ul>
-  </nav>
+    <nav class="header-bar__nav">
+      <ul class="header-bar__nav-list">
+        <% for (var link in site.data.nav) { %>
+          <li class="header-bar__nav-list-item">
+            <a class="header-bar__nav-link" href="<%= site.data.nav[link].path %>"> <%= site.data.nav[link].text %> </a>
+          </li>
+        <% } %>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-bar__right">
+    <div class="header-bar__social-wrap">
+      <a href="<%= config.github %>" class="header-bar__social-link"><i class="fab fa-github"></i></a>
+      <a href="<%= config.codepen %>" class="header-bar__social-link"><i class="fab fa-codepen"></i></a>
+    </div>
+  </div>
 
 </header>

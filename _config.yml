@@ -20,6 +20,10 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+#Social:
+codepen: https://codepen.io/lucas-j-k/
+github: https://github.com/lucas-j-k
+
 # Directory
 source_dir: source
 public_dir: public

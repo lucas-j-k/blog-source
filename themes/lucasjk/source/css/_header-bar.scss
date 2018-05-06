@@ -73,6 +73,23 @@
   width:75%;
 }
 
+.header-bar__social-wrap {
+  width:100%;
+  margin-top:em(48);
+  justify-content: center;
+  display:flex;
+  text-align: center;
+}
+
+.header-bar__social-link {
+  color:$grey-light;
+  font-size: em(36);
+  padding:em(8);
+  i,svg,path {
+    color:inherit;
+  }
+}
+
 
 @include portrait-tablet {
 
@@ -81,11 +98,21 @@
     display: flex;
     position:relative;
     background: $black;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
     height:auto;
     width:100%;
+  }
+
+  .header-bar__left {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-bar__right {
+    margin-right: em(24);
   }
 
   .header-bar__menu-close {
@@ -142,6 +169,19 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  .header-bar__social-wrap {
+    width:auto;
+    margin:0;
+  }
+
+  .header-bar__social-link {
+    font-size: em(20);
+    color: $grey-light;
+    i,svg,path {
+      color:inherit;
     }
   }
 

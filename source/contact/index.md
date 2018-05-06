@@ -3,6 +3,7 @@ title: Contact
 seo_title: Get in touch | Lucas-J-K
 description: Get in touch | Lucas-J-K
 date: 2018-02-07 21:22:20
+slug: contact
 ---
 
 Fill in the form below to get in touch
