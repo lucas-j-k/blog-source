@@ -1,10 +1,10 @@
 ---
-title: Basic Signup Landing Page
+title: Bootstrap sign-up landing page
 date: 2018-03-18 17:46:54
-seo_title: Basic Signup Landing Page
-subtitle: Testing out theming Bootstrap 4 with Sass
+seo_title: Bootstrap 4 | CSS | Sass
+subtitle: Theming Bootstrap 4 with Sass
 tags: [CSS, Design, Bootstrap]
-description: Testing out theming Bootstrap 4 with Sass
+description: Theming Bootstrap 4, building from source with Sass.
 icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484978/blog/signup-thumbnail.png
 custom_stylesheet:
 ---

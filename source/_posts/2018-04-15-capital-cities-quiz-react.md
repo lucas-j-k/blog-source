@@ -1,10 +1,10 @@
 ---
 title: React - Simple Quiz app
 date: 2018-04-15 23:23:20
-seo_title: React - simple quiz app
+seo_title: React | Javascript | REST API
 subtitle: Based on data loaded from a REST endpoint
 tags: [React, API, Javascript]
-description: Using React to build a simple quiz app, loading data from an API and using this to populate question/answers.
+description: Simple javascript app built with React, loading data from an API and using this to populate question/answers.
 icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523830952/blog/capitalquizthumbnail.png
 custom_stylesheet:
 ---
@@ -12,5 +12,5 @@ custom_stylesheet:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 A simple quiz app, based on countries and their capital cities, which I created to practice building with React.
- 
+
 The data is loaded in from the [REST Countries](http://restcountries.eu) API, and then used to build question and answers for the quiz.  

@@ -1,7 +1,7 @@
 ---
-title: About
-seo_title: About Me | Lucas-J-K
-description: About Me | Lucas-J-K
+title: About Me
+seo_title: Web Developer | Norwich | Norfolk
+description: Javascript developer and web designer, Norwich, Norfolk UK.
 date: 2018-02-07 21:22:08
 slug: about
 ---

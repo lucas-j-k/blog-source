@@ -4,10 +4,10 @@
 
 # Site
 title: LucasJK
-seotitle: LucasJK | Front End | Design | Animation
+seotitle: Web Development | Design | Animation | Norwich
 heading: Lucas
 subtitle: Front end dev, design and animation
-description: Front end dev, design and animation
+description: Web development, design and animation.
 author: Lucas
 language:
 timezone:
@@ -15,7 +15,7 @@ timezone:
 
 
 
-url: http://lucas-j-k.github.io
+url: http://www.lucasjk.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

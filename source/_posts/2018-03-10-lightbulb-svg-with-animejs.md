@@ -1,10 +1,10 @@
 ---
-title: Lightbulb SVG with Anime.js
+title: SVG animation with Anime.js
 date: 2018-03-10 14:18:30
-seo_title: Lightbulb SVG animation with Anime.js
-subtitle: Experimenting with using the Animejs library to animate SVG
+seo_title: SVG path animation | Javascript | CSS | Anime.js
+subtitle: Experimenting with using the Animejs library to animate an SVG path
 tags: [Animation, SVG, Anime.js]
-description: Experimenting with using the Animejs library to animate SVG
+description: Experimenting  using the Animejs Javascript library to animate an SVG path
 icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484983/blog/lightbulb-thumbnail.png
 custom_stylesheet: /assets/lightbulb/styles.css
 ---

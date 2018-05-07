@@ -1,10 +1,10 @@
 ---
-title: Animated Overlay Menus
+title: Animated Javascript Overlay Menus
 date: 2018-04-22 22:42:48
-seo_title: Animated Overlay Menus
+seo_title: Javascript Animation | CSS | Anime.js
 subtitle: Experimenting with different overlay menu formats
 tags: [Animation, CSS, Javascript, Anime.js]
-description: Experimenting with different overlay menu formats
+description: Experimenting with different animated overlay menu formats, using the Anime.js javascript library.
 icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1524435898/blog/menu-overlay-thumbnail.png
 custom_stylesheet:
 ---

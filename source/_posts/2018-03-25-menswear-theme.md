@@ -1,10 +1,10 @@
 ---
-title: New Layout - Menswear Theme
+title: Bootstrap homepage layout
 date: 2018-03-25 21:33:13
-seo_title: New Layout - Menswear
-subtitle: Bootstrap based layout with full screen nav overlay
+seo_title: Bootstrap layout | CSS | Web Design
+subtitle: Bootstrap 4 page layout with full screen nav overlay
 tags: [CSS, Design, Bootstrap]
-description:
+description: Web homepage layout with Bootstrap 4 built from source.
 icon: https://res.cloudinary.com/duua3lsu1/image/upload/v1523484992/blog/menswear-thumbnail.png
 custom_stylesheet:
 ---

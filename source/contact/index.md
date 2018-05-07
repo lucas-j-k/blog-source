@@ -1,7 +1,7 @@
 ---
-title: Contact
-seo_title: Get in touch | Lucas-J-K
-description: Get in touch | Lucas-J-K
+title: Contact Me
+seo_title: Get in touch | Web developer and designer | Norfolk
+description: Fill in the contact form to get in touch
 date: 2018-02-07 21:22:20
 slug: contact
 ---
