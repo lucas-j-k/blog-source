@@ -10,7 +10,8 @@
     title = __(archive_title);
 
     if (is_month()){
-      title += ': ' + page.year + '/' + page.month;
+      title += ': ' + page.month + '/' + page.year;
+
     } else if (is_year()){
       title += ': ' + page.year;
     }

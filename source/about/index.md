@@ -14,6 +14,6 @@ Lucas
 
 Currently full time Digital Operations in the publishing sector.
 
-In my spare time I like to keep up with Web Design, Front End Dev, Javascript and Animation.
+In my spare time I like to keep up with Web Design, Front End Development, Javascript and Animation.
 
 [Browse](/) my latest work, or [get in touch](/contact)
