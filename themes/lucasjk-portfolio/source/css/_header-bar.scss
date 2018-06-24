@@ -1,0 +1,188 @@
+
+.header-bar {
+  height:0;
+  width:100%;
+  background-color: $black;
+  @include gradient-background;
+  position:fixed;
+  z-index:100;
+  top: 0;
+  left:0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition:0.6s;
+
+  &__menu-close {
+    width:40%;
+    text-align: center;
+    font-size: em(32);
+    i, svg {
+      color:$white;
+      path {
+        color:$white;
+      }
+    }
+  }
+
+  &__top-wrap {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+  .header-bar__logo-wrap {
+    width:40%;
+  }
+
+  .header-bar__nav {
+    width:40%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+.header-bar__title-text {
+  font-size: em(22);
+  text-decoration: none;
+  color: $white;
+  font-weight: normal;
+}
+
+.header-bar__nav-list {
+  width:100%;
+}
+
+.header-bar__nav-list-item {
+  padding:em(5);
+  width:100%;
+  text-align: center;
+}
+
+.header-bar__nav-link {
+  text-decoration: none;
+  display: block;
+  color: $grey-light;
+  font-size: em(24);
+
+}
+
+.header-bar__logo-img {
+  width:75%;
+}
+
+.header-bar__social-wrap {
+  width:100%;
+  margin-top:em(48);
+  justify-content: center;
+  display:flex;
+  text-align: center;
+}
+
+.header-bar__social-link {
+  color:$grey-light;
+  font-size: em(36);
+  padding:em(8);
+  i,svg,path {
+    color:inherit;
+  }
+}
+
+
+@include portrait-tablet {
+
+
+  .header-bar {
+    display: flex;
+    position:relative;
+    background: $black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height:auto;
+    width:100%;
+  }
+
+  .header-bar__left {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-bar__right {
+    margin-right: em(24);
+  }
+
+  .header-bar__menu-close {
+    display:none;
+  }
+
+  .header-bar__title {
+    margin: 0 em(5);
+    padding: 0 em(15);
+    border-right: 1px solid $white;
+    font-weight: normal;
+  }
+
+  .header-bar__top-wrap {
+    width:auto;
+  }
+
+  .header-bar__logo-wrap {
+    width:auto;
+    margin:0 0;
+  }
+
+  .header-bar__title-text {
+    font-size: em(20);
+    color: $white;
+  }
+
+  .header-bar__logo-img {
+    width:50px;
+    height:50px;
+  }
+
+  .header-bar__nav {
+    width:auto;
+    margin:0 0;
+    padding-top:0;
+  }
+
+  .header-bar__nav-list {
+    display:flex;
+    margin:0;
+  }
+
+  .header-bar__nav-list-item {
+    padding: 0 em(5);
+    margin:0;
+    text-align: left;
+  }
+
+  .header-bar__nav-link {
+    padding: em(5);
+    font-size: em(14);
+    color: $grey-light;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .header-bar__social-wrap {
+    width:auto;
+    margin:0;
+  }
+
+  .header-bar__social-link {
+    font-size: em(20);
+    color: $grey-light;
+    i,svg,path {
+      color:inherit;
+    }
+  }
+
+}

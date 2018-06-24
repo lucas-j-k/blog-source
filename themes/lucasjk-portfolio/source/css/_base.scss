@@ -1,0 +1,56 @@
+//Base styles for the overall project
+
+* {
+  color:$black;
+  box-sizing: border-box;
+}
+
+body {
+  // @include gradient-background;
+  background-color: $primary;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+
+  input, textarea {
+    width:100%;
+    margin: em(10) 0;
+  }
+}
+
+
+
+//General layout of main content sections:
+.content__wrap {
+
+  //Stretch it vertically to push the footer to bottom of window:
+  min-height:80vh;
+
+  @include landscape-tablet {
+
+  }
+
+  @include wide-desktop {
+    max-width: 1600px;
+    margin:0 auto;
+  }
+}
+
+
+
+
+.main-content {
+  @include landscape-tablet {
+    width:70%;
+    margin: 0 auto;
+    padding: em(10) 0;
+  }
+}

@@ -1,0 +1,152 @@
+.post-loop {
+
+  .post {
+    width:90%;
+    margin: 0 auto;
+    background-color: $white;
+    margin-bottom: em(20);
+    padding:em(5);
+    @include box-shadow;
+  }
+
+  .post__icon-wrap {
+    width:250px;
+    height:150px;
+    margin:0 auto;
+    position: relative;
+
+    &:before{
+      content:"";
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background-color: $thumbnail-overlay-color;
+      -moz-transition: background .2s linear;
+      -webkit-transition: background .2s linear;
+      -o-transition: background .2s linear;
+      transition: background .2s linear;
+    }
+
+    &:hover:before {
+      background:none;
+    }
+  }
+
+  .post__icon-img {
+    // width:200px;
+    // height:200px;
+    // display:block;
+    // margin:0 auto;
+    width:250px;
+    height:150px;
+    background-color: black;
+    margin:0 auto;
+    display:block;
+  }
+
+  .post__header-title {
+    text-align: center;
+    margin: 0 auto;
+    width:85%;
+    // border-bottom: 1px solid $black;
+  }
+
+  .post__header-link {
+    background-color: $link-color;
+    padding: em(2);
+    font-size: em(18);
+    display: inline-block;
+  }
+
+  .post__meta-wrap {
+    padding:em(12);
+  }
+
+  .post__meta-date {
+    text-decoration: none;
+  }
+
+  .post__subtitle {
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: em(5) 0;
+  }
+
+  .post__footer {
+  }
+
+  .post__tag-list {
+    padding:em(5);
+    margin: em(2);
+    text-align: center;
+  }
+
+  .post__tag-list-item {
+    border: 2px solid $black;
+    display: inline-block;
+    margin: em(2);
+    padding:em(8);
+
+    &:hover {
+      background-color: $link-color;
+
+    }
+  }
+
+  .post__tag-list-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: em(14);
+  }
+
+  @include landscape-tablet {
+
+    .post__meta-wrap  {
+      padding:0;
+      margin-bottom: em(5);
+      text-align: left;
+    }
+
+    .post__header {
+      display: flex;
+      align-items: center;
+    }
+
+    .post__icon-wrap {
+      margin:0;
+    }
+
+    .post__header-wrap {
+      padding-left:em(20);
+    }
+
+    .post__header-title {
+      text-align: left;
+      padding:0;
+      width: 100%;
+      margin: 0;
+    }
+
+    .post__subtitle {
+      text-align: left;
+      margin-left: 0;
+      width:100%;
+    }
+
+    .post__tag-list {
+      padding:0;
+      margin-left: 0px;
+      text-align: left;
+    }
+
+    .post__tag-list-item {
+
+    }
+
+  }
+
+}

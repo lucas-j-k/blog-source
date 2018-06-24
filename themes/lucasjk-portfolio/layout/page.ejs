@@ -1,0 +1,9 @@
+<div class="page__wrap">
+  <%- partial('_partial/article', {post: page, index: false}) %>
+
+  <!-- Loop through portfolio project pages, and build links to each: -->
+  <% if(page.show_portfolio_links === true){ %>
+    <%- partial('_partial/project-links') %>
+  <% } %>
+
+</div>

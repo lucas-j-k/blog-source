@@ -1,0 +1,48 @@
+//Site wide style variables
+
+// Site colors
+$black: #020202;
+$grey-mid: #777777;
+$grey-light: #bababa;
+$grey-dark: #3d3d3d;
+$off-white: #ededed;
+$white: #f9f9f9;
+$link-color: #ffe630;
+$thumbnail-overlay-color: rgba(25,29,33, 0.2);
+
+//New color variables:
+$primary: #1B282D;
+$secondary: #C29B2F;
+$tertiary: #C0BFB1;
+$black: #141a1c;
+$white: #f3f3f3;
+
+$primary-dark: darken($primary, 20%);
+$primary-light: lighten($primary, 20%);
+$primary-lighter: lighten($primary, 35%);
+
+$secondary-dark: darken($secondary, 20%);
+$secondary-light: lighten($secondary, 20%);
+$secondary-lighter: lighten($secondary, 35%);
+
+$tertiary-dark: darken($tertiary, 20%);
+$tertiary-light: lighten($tertiary, 20%);
+$tertiary-lighter: lighten($tertiary, 35%);
+
+$link-color: $secondary-light;
+
+//Range of grays:
+$grey-20: lighten($black, 80%);
+$grey-40: lighten($black, 60%);
+$grey-60: lighten($black, 40%);
+$grey-80: lighten($black, 20%);
+
+//Default font size for the em function:
+$browser-context: 16;
+
+
+//Breakpoint sizes:
+$tablet-portrait-breakpoint: 600px;
+$tablet-landscape-breakpoint: 900px;
+$desktop-breakpoint: 1200px;
+$widedesktop-breakpoint: 1800px;

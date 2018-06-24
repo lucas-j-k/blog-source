@@ -1,0 +1,15 @@
+<!-- Loop through all the pages here, and output link html for any that are tagged 'portfolio' in the type front matter field. -->
+<div class="project-links">
+  <% site.pages.forEach(function(currentPage) { %>
+    <% if(currentPage.type === "project"){ %>
+      <div class="project-links__item">
+        <a class="project-links__link" href="<%= '../' + currentPage.path.replace(/index\.html$/, '') %>">
+        <div style="background-image: url('<%= currentPage.thumbnail %>');'" alt="Project Thumbnail Image" class="project-links__thumbnail">
+          <h3 class="project-links__heading"><%= currentPage.title %></h3>
+        </div>
+        </a>
+        <p class="project-links__subtitle"><%= currentPage.subtitle %></p>
+      </div>
+    <% } %>
+  <% }); %>
+</div>

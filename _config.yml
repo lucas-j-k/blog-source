@@ -13,7 +13,8 @@ language:
 timezone:
 
 
-
+exclude_generator:
+- home
 
 url: http://www.lucasjk.com
 root: /
@@ -34,9 +35,12 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+index_generator:
+  path: '/blog'
+
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
-default_layout: post
+default_layout: page
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -70,14 +74,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: lucasjk
+theme: lucasjk-portfolio
 
-# # Deployment
-# ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: heroku
-#   repo: https://git.heroku.com/hexositetest.git
-#   message: "{{ now('YYYY-MM-DD HH:mm:ss') }} "
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

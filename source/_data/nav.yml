@@ -2,17 +2,11 @@ Home:
   path: /
   id: home
   text: Home
-About:
-  path: /about
-  id: about
-  text: About
+Projects:
+  path: /projects
+  id: projects
+  text: Projects
 Contact:
   path: /contact
   id: contact
   text: Contact
-
-
-#Simplified version:
-# Home: /
-# About: /about/
-# Contact: /contact/

@@ -1,0 +1,40 @@
+
+.contact-form__form {
+  margin: 0;
+}
+
+.contact-form__input {
+  color: $grey-dark;
+  margin-top: em(2);
+  margin-bottom: em(10);
+  font-family: arial sans-serif;
+
+  &:focus {
+    color: $black;
+  }
+
+  &--submit {
+    width: 40%;
+    background-color: $secondary;
+    color: $black;
+    padding: em(10);
+    border: 0;
+    margin: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &--textarea {
+    height: 200px;
+    padding-top: 0px;
+  }
+}
+
+
+@include landscape-tablet {
+  .contact-form__wrap {
+    width: 60%;
+  }
+}

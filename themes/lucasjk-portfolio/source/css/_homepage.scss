@@ -1,0 +1,15 @@
+//styling for the About me page:
+.page-home {
+  .avatar {
+    width:200px;
+    border:8px solid $link-color;
+    border-radius:50%;
+    display:block;
+    margin:em(38) auto;
+    margin-bottom:em(38);
+  }
+
+  p {
+    text-align: center;
+  }
+}
