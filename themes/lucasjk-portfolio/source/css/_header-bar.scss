@@ -2,7 +2,7 @@
 .header-bar {
   height:0;
   width:100%;
-  background-color: $black;
+  background-color: $primary-dark;
   @include gradient-background;
   position:fixed;
   z-index:100;
@@ -64,7 +64,7 @@
 .header-bar__nav-link {
   text-decoration: none;
   display: block;
-  color: $grey-light;
+  color: $grey-40;
   font-size: em(24);
 
 }
@@ -82,7 +82,7 @@
 }
 
 .header-bar__social-link {
-  color:$grey-light;
+  color:$grey-40;
   font-size: em(36);
   padding:em(8);
   i,svg,path {
@@ -97,7 +97,7 @@
   .header-bar {
     display: flex;
     position:relative;
-    background: $black;
+    background: $primary-dark;
     justify-content: space-between;
     align-items: center;
     margin: 0;
@@ -165,7 +165,7 @@
   .header-bar__nav-link {
     padding: em(5);
     font-size: em(14);
-    color: $grey-light;
+    color: $grey-40;
 
     &:hover {
       text-decoration: underline;
@@ -179,7 +179,7 @@
 
   .header-bar__social-link {
     font-size: em(20);
-    color: $grey-light;
+    color: $grey-40;
     i,svg,path {
       color:inherit;
     }

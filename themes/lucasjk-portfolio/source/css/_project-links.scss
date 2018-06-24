@@ -4,14 +4,14 @@
     width:90%;
     margin:0 auto;
     margin-bottom: em(50);
-    background-color: $tertiary-light;
+    background-color: $tertiary-lighter;
     @include box-shadow;
   }
   &__thumbnail {
     height: em(250);
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     background-position: center;
     background-size: cover;
   }
@@ -20,11 +20,13 @@
     // width: 100%;
     font-size: em(20);
     margin:0;
-    background-color: rgba($secondary-light, 0.85);
+    background-color: rgba($secondary, 0.85);
   }
   &__subtitle {
     color: $primary;
-    padding:em(10) em(20);
+    padding:em(10) em(15);
+    padding-right: em(40);
+    border-top:em(4) solid $secondary;
     margin:0;
   }
   &__link {

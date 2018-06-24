@@ -6,5 +6,6 @@ seo_title:
 description:
 custom_stylesheet:
 type: project
+technologies: [Javascript, React, CSS]
 thumbnail: https://source.unsplash.com/random/800x304
 ---

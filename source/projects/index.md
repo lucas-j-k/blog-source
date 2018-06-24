@@ -9,4 +9,4 @@ type:
 thumbnail:
 show_portfolio_links: true
 ---
-Click the below to view my recent design and development projects.
+Click the below to browse my recent design and development projects.

@@ -1,25 +1,32 @@
 
+.page-contact {
+  text-align: center;
+}
+
 .contact-form__form {
-  margin: 0;
+  margin:0 auto;
+  text-align: center;
 }
 
 .contact-form__input {
-  color: $grey-dark;
+  color: $grey-80;
   margin-top: em(2);
   margin-bottom: em(10);
   font-family: arial sans-serif;
 
   &:focus {
     color: $black;
+    background-color: $secondary-lighter;
   }
 
   &--submit {
     width: 40%;
-    background-color: $secondary;
-    color: $black;
+    display: block;
+    background-color: $secondary-dark;
+    color: $secondary-lighter;
     padding: em(10);
     border: 0;
-    margin: 0;
+    margin: 0 auto;
 
     &:hover {
       cursor: pointer;
@@ -36,5 +43,9 @@
 @include landscape-tablet {
   .contact-form__wrap {
     width: 60%;
+    margin: 0 auto;
+  }
+  .contact-form__form {
+    text-align: left;
   }
 }

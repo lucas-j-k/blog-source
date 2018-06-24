@@ -4,14 +4,14 @@ seo_title: Web Developer | Norwich | Norfolk
 description: Javascript developer and web designer, Norwich, Norfolk UK.
 date: 2018-02-07 21:22:08
 slug: home
-type:
+type: home
 thumbnail:
 show_portfolio_links:
 ---
 
 <img src="https://res.cloudinary.com/duua3lsu1/image/upload/v1525562247/blog/avatar-transparent-sm.png" class="avatar" />
 
-Lucas  
+Luke  
 
 <i class="fas fa-map-marker-alt"></i>   Norwich, Norfolk, UK.  
 

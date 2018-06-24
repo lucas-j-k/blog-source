@@ -26,6 +26,11 @@ form {
   }
 }
 
+.cta {
+  background-color: $link-color;
+  padding:em(5);
+  font-weight: bold;
+}
 
 
 //General layout of main content sections:
@@ -39,7 +44,7 @@ form {
   }
 
   @include wide-desktop {
-    max-width: 1600px;
+    max-width: 1400px;
     margin:0 auto;
   }
 }

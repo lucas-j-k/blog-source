@@ -4,12 +4,12 @@ seo_title: Get in touch | Web developer and designer | Norfolk
 description: Fill in the contact form to get in touch
 date: 2018-02-07 21:22:20
 slug: contact
-type:
+type: contact
 thumbnail:
-show_portfolio_links: 
+show_portfolio_links:
 ---
 
-Fill in the form below to get in touch
+Please fill in the form below to get in touch
 
 <div class="contact-form__wrap" id="contact_form">
   <form class="contact-form__form" action="https://formspree.io/contact.nocturneworks@gmail.com" method="POST">

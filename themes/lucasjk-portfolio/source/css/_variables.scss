@@ -1,23 +1,24 @@
 //Site wide style variables
 
-// Site colors
-$black: #020202;
-$grey-mid: #777777;
-$grey-light: #bababa;
-$grey-dark: #3d3d3d;
-$off-white: #ededed;
-$white: #f9f9f9;
-$link-color: #ffe630;
-$thumbnail-overlay-color: rgba(25,29,33, 0.2);
+// // Site colors
+// $black: #020202;
+// $grey-mid: #777777;
+// $grey-20: #bababa;
+// $grey-80: #3d3d3d;
+// $off-white: #ededed;
+// $white: #f9f9f9;
+// $link-color: #ffe630;
+// $thumbnail-overlay-color: rgba(25,29,33, 0.2);
 
 //New color variables:
 $primary: #1B282D;
-$secondary: #C29B2F;
+// $secondary: #C29B2F;
+$secondary: #fcc81e;
 $tertiary: #C0BFB1;
 $black: #141a1c;
 $white: #f3f3f3;
 
-$primary-dark: darken($primary, 20%);
+$primary-dark: darken($primary, 10%);
 $primary-light: lighten($primary, 20%);
 $primary-lighter: lighten($primary, 35%);
 
@@ -29,7 +30,7 @@ $tertiary-dark: darken($tertiary, 20%);
 $tertiary-light: lighten($tertiary, 20%);
 $tertiary-lighter: lighten($tertiary, 35%);
 
-$link-color: $secondary-light;
+$link-color: $secondary;
 
 //Range of grays:
 $grey-20: lighten($black, 80%);

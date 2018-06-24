@@ -1,8 +1,9 @@
 .page__wrap {
   width:98%;
   margin:0 auto;
+  padding-bottom: em(10);
   background-color: $white;
-  @include box-shadow;
+  // @include box-shadow;
 
   .post {
     padding: em(20);
@@ -16,7 +17,7 @@
   }
 
   .post__header {
-    margin-bottom: em(10);
+    margin-bottom: em(5);
   }
 
   .post__header-title {
@@ -26,6 +27,22 @@
 
   .post__subtitle {
     margin:0;
+    font-size: em(18);
+    margin-top: em(5);
+    text-align: center;
+  }
+
+  img {
+    margin:0 auto;
+    display:block;
+    max-width: 80%;
+  }
+
+  .post__img-caption {
+    font-style: italic;
+    color: $tertiary-dark;
+    text-align: center;
+
   }
 
   a {
@@ -34,4 +51,49 @@
   }
 
 
+}
+
+@include landscape-tablet {
+  .post__body {
+    p {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.page-projects {
+  .post__content {
+    text-align: center;
+  }
+}
+
+.page {
+  &__technologies-list {
+    width:100%;
+    display: flex;
+    margin: em(8) 0;
+    justify-content: center;
+    align-items: center;
+  }
+  &__technologies-items {
+    padding: em(5);
+    color: $grey-80;
+    font-size: em(16);
+    margin: 0 em(8);
+  }
+  &__header-links {
+    display: flex;
+    flex-direction: column;
+    margin: em(8) 0;
+    justify-content: center;
+    align-items: center;
+  }
+  &__header-link {
+    margin: em(8) 0;
+  }
+  &__back {
+    text-align: center;
+  }
 }

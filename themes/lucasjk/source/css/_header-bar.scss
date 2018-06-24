@@ -64,7 +64,7 @@
 .header-bar__nav-link {
   text-decoration: none;
   display: block;
-  color: $grey-light;
+  color: $grey-20;
   font-size: em(24);
 
 }
@@ -82,7 +82,7 @@
 }
 
 .header-bar__social-link {
-  color:$grey-light;
+  color:$grey-20;
   font-size: em(36);
   padding:em(8);
   i,svg,path {
@@ -165,7 +165,7 @@
   .header-bar__nav-link {
     padding: em(5);
     font-size: em(14);
-    color: $grey-light;
+    color: $grey-20;
 
     &:hover {
       text-decoration: underline;
@@ -179,7 +179,7 @@
 
   .header-bar__social-link {
     font-size: em(20);
-    color: $grey-light;
+    color: $grey-20;
     i,svg,path {
       color:inherit;
     }

@@ -6,5 +6,6 @@ description:
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, ad, sunt! Veniam!
 custom_stylesheet:
 type: project
+technologies: [Javascript, React, CSS]
 thumbnail: https://source.unsplash.com/random/800x302
 ---

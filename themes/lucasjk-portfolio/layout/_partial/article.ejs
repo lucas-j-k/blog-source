@@ -1,4 +1,4 @@
-<article id="<%= post.layout %>-<%= post.slug %>" class="post box-shadow article-type-<%= post.layout %> <%= post.layout %>-<%= post.slug %>">
+<article id="<%= post.layout %>-<%= post.type %>" class="post box-shadow article-type-<%= post.layout %> <%= post.layout %>-<%= post.type %>">
 
   <div class="post__inner">
     <% if (post.link || post.title){ %>
@@ -25,10 +25,32 @@
           <% } %>
         <% } %> -->
       <% } else { %>
+        <% if (post.type === "project"){ %>
+          <div class="page__technologies-list">
+
+              <span class="page__technologies-items">
+                <%- post.technologies.join('  |  ') %>
+              </span>
+
+          </div>
+
+          <div class="page__header-links">
+            <% if (post.live_link){ %>
+              <a target="_blank" href="<%= post.live_link %>" class="page__header-link cta">View Live Project</a>
+            <% } %>
+            <!-- <% if (post.github_link){ %>
+            <a target="_blank" href="<%= post.github_link %>" class="page__header-link cta">View Code</a>
+            <% } %> -->
+          </div>
+        <% } %>
         <div class="post__content">
         <%- post.content %>
-        <!-- ADD THE PORTFOLIO LINKS WIDGET INTO HERE! -->
       </div>
+        <% if (post.type === "project"){ %>
+          <div class="page__back">
+            <a href="../" class="cta">Back to projects</a>
+          </div>
+        <% } %>
       <% } %>
     </div>
     <footer class="post__footer">
