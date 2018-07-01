@@ -5,9 +5,16 @@
       <div class="project-links__item">
         <a class="project-links__link" href="<%= '../' + currentPage.path.replace(/index\.html$/, '') %>">
         <div style="background-image: url('<%= currentPage.thumbnail %>');'" alt="Project Thumbnail Image" class="project-links__thumbnail">
-          <h3 class="project-links__heading"><%= currentPage.title %></h3>
+          <div class="project-links__overlay">
+            <h3 class="project-links__heading"><%= currentPage.title %></h3>
+          </div>
         </div>
         </a>
+        <div class="project-links__technologies-list">
+            <span class="project-links__technologies-items">
+              <%- currentPage.technologies.join('  |  ') %>
+            </span>
+        </div>
         <p class="project-links__subtitle"><%= currentPage.subtitle %></p>
       </div>
     <% } %>
