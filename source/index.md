@@ -19,4 +19,4 @@ Currently full time Digital Operations in the publishing sector.
 
 In my spare time I like to keep up with Web Design, Front End Development, Javascript and Animation.
 
-[Browse](/projects) my latest work, or [get in touch](/contact)
+Browse my latest [projects](/projects), check out my [Codepen](https://codepen.io/lucas-j-k/), or send me an [email](/contact).

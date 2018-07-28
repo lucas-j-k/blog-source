@@ -35,7 +35,7 @@
   img {
     margin:0 auto;
     display:block;
-    max-width: 80%;
+    max-width: 98%;
   }
 
   .post__img-caption {
@@ -54,20 +54,19 @@
 }
 
 @include landscape-tablet {
-  .post__body {
-    p {
-      max-width: 80%;
+  .page-project {
+    .post__content {
+      max-width:80%;
       margin-left: auto;
       margin-right: auto;
+
+      img {
+        max-width: 800px;
+      }
     }
   }
 }
 
-.page-projects {
-  .post__content {
-    text-align: center;
-  }
-}
 
 .page {
   &__technologies-list {
