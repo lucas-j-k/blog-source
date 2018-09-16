@@ -33,7 +33,7 @@
   }
 
   img {
-    margin:0 auto;
+    margin: em(40) auto;
     display:block;
     max-width: 98%;
   }
@@ -61,7 +61,7 @@
       margin-right: auto;
 
       img {
-        max-width: 800px;
+        
       }
     }
   }
