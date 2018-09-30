@@ -5,8 +5,12 @@
     border:8px solid $link-color;
     border-radius:50%;
     display:block;
-    margin:em(38) auto;
-    margin-bottom:em(38);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:em(16);
+    margin-top: em(4);
+    background-color: $white;
+    // @include box-shadow;
   }
 
   p {

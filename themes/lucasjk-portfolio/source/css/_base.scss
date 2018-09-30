@@ -7,7 +7,8 @@
 
 body {
   // @include gradient-background;
-  background-color: $primary;
+  @include bg-textured-dark;
+  // background-color: $primary;
 }
 
 ul {
@@ -37,7 +38,7 @@ form {
 .content__wrap {
 
   //Stretch it vertically to push the footer to bottom of window:
-  min-height:80vh;
+  min-height:90vh;
 
   @include landscape-tablet {
 

@@ -1,5 +1,9 @@
 .project-links {
   width:100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
   &__item {
     width:90%;
     margin:0 auto;
@@ -24,7 +28,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba($black, 0.5);
+    background-color: rgba($black, 0.3);
   }
   &__heading {
     padding: em(18);
@@ -53,5 +57,14 @@
   }
   &__link {
     text-decoration: none;
+  }
+}
+
+
+@include portrait-tablet {
+  .project-links {
+    &__item {
+      width: 45%;
+    }
   }
 }
